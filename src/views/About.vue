@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="buttons">
-      <b-button size="is-small"
-                icon-left="github-circle">
+      <b-button icon-left="angle-left"
+                size="is-small">
         Add
       </b-button>
 
@@ -10,30 +10,30 @@
         Add
       </b-button>
 
-      <b-button size="is-medium"
-                icon-left="github-circle">
+      <b-button icon-left="github-circle"
+                size="is-medium">
         Add
       </b-button>
 
-      <b-button size="is-large"
-                icon-left="github-circle">
+      <b-button icon-left="github-circle"
+                size="is-large">
         Add
       </b-button>
     </div>
 
     <div class="buttons">
-      <b-button type="is-danger"
-                icon-left="delete">
+      <b-button icon-left="delete"
+                type="is-danger">
         Delete
       </b-button>
 
-      <b-button type="is-danger"
-                icon-right="delete">
+      <b-button icon-right="delete"
+                type="is-danger">
         Delete
       </b-button>
 
-      <b-button type="is-danger"
-                icon-right="delete" />
+      <b-button icon-right="delete"
+                type="is-danger"/>
     </div>
 
   </section>

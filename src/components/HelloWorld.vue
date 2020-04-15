@@ -30,25 +30,25 @@
     </div>
 
     <div class="buttons">
-      <b-button type="is-primary" outlined>Outlined</b-button>
-      <b-button type="is-success" outlined>Outlined</b-button>
-      <b-button type="is-danger" outlined>Outlined</b-button>
-      <b-button type="is-warning" outlined>Outlined</b-button>
+      <b-button outlined type="is-primary">Outlined</b-button>
+      <b-button outlined type="is-success">Outlined</b-button>
+      <b-button outlined type="is-danger">Outlined</b-button>
+      <b-button outlined type="is-warning">Outlined</b-button>
     </div>
 
     <div class="buttons">
-      <b-button type="is-primary" expanded>Expanded</b-button>
+      <b-button expanded type="is-primary">Expanded</b-button>
     </div>
 
     <div class="notification is-primary">
-      <b-button type="is-primary"
-                inverted>
+      <b-button inverted
+                type="is-primary">
         Inverted
       </b-button>
 
-      <b-button type="is-primary"
-                inverted
-                outlined>
+      <b-button inverted
+                outlined
+                type="is-primary">
         Invert Outlined
       </b-button>
     </div>
@@ -60,5 +60,5 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss" scoped>
 </style>

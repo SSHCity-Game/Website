@@ -16,21 +16,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v2
-      with:
+      - uses: actions/checkout@v2
+        with:
           persist-credentials: false
 
-    # Build
-    - name: Build
-      run: |
-        npm install
-        npm run build
+      # Build
+      - name: Build
+        run: |
+          npm install
+          npm run build
 
-    # Deploy
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with: 
-        REPOSITORY_NAME: SAFExTY/safexty.github.io
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: master
-        FOLDER: dist
+      # Deploy
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          REPOSITORY_NAME: SAFExTY/safexty.github.io
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: master
+          FOLDER: dist
