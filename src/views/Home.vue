@@ -8,21 +8,19 @@
 </template>
 
 <script>
-  // @ is an alias to /src
-  import HelloWorld from '@/components/HelloWorld.vue';
-  import Hero from '../components/Hero';
-  import Navigation from '../components/Navigation';
-  import Footer from '../components/Footer';
-  import Project from '../components/Project';
+// @ is an alias to /src
+import Hero from '../components/Hero.vue';
+import Navigation from '../components/Navigation.vue';
+import Footer from '../components/Footer.vue';
+import Project from '../components/Project.vue';
 
-  export default {
-    name: 'Home',
-    components: {
-      Project,
-      Footer,
-      Navigation,
-      Hero,
-      HelloWorld,
-    },
-  };
+export default {
+  name: 'Home',
+  components: {
+    Project,
+    Footer,
+    Navigation,
+    Hero,
+  },
+};
 </script>

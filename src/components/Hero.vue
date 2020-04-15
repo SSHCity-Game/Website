@@ -12,21 +12,23 @@
 </template>
 
 <script>
-  export default {
-    name: 'Hero',
-    data() {
-      return {
-        carousels: [
-          {
-            img: require('../assets/slides/screen.png'),
-          },
-          {
-            img: require('../assets/slides/screen2.png'),
-          },
-        ],
-      };
-    },
-  };
+export default {
+  name: 'Hero',
+  data() {
+    return {
+      carousels: [
+        {
+          // eslint-disable-next-line global-require
+          img: require('../assets/slides/screen.png'),
+        },
+        {
+          // eslint-disable-next-line global-require
+          img: require('../assets/slides/screen2.png'),
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
