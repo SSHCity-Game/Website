@@ -28,9 +28,7 @@
           <a class="button is-primary">
             <strong>Sign up</strong>
           </a>
-          <a class="button is-light">
-            Log in
-          </a>
+          <b-button class="is-light" @click="login">Se connecter</b-button>
         </div>
       </b-navbar-item>
     </template>
@@ -38,8 +36,21 @@
 </template>
 
 <script>
+import Login from './Login.vue';
+
 export default {
   name: 'Navigation',
+  methods: {
+    login() {
+      // From inside Vue instance
+      this.$buefy.modal.open({
+        parent: this,
+        component: Login,
+        hasModalCard: true,
+        trapFocus: true,
+      });
+    },
+  },
 };
 </script>
 
