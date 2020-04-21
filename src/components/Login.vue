@@ -8,8 +8,8 @@
           </header>
 
           <section class="modal-card-body">
-            <b-field label="Email">
-              <b-input placeholder="Email" v-model="email" type="email" required/>
+            <b-field label="Email ou Nom d'utilisateur">
+              <b-input placeholder="Ex: contact@safexty.com" v-model="email" required/>
             </b-field>
 
             <b-field label="Mot de passe">
@@ -24,6 +24,7 @@
             <b-field>
               <b-button type="is-primary" v-on:click="login">Se connecter</b-button>
             </b-field>
+            <div class="alert is-danger" v-if="error">{{ error }}</div>
           </section>
         </div>
       </form>
@@ -36,19 +37,34 @@ export default {
   name: 'Login',
   data() {
     return {
-      isEmailValid: true,
+      error: false,
       email: '',
       password: '',
     };
   },
   methods: {
-    testEmail() {
-      const re = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
-      this.isEmailValid = re.test(this.email);
-    },
     login() {
-      console.log(this.email);
-      console.log(this.password);
+      this.$http.post('/users/authenticate', {
+        username: this.email,
+        password: this.password,
+      })
+        .then((request) => this.loginSuccessful(request))
+        .catch(() => this.loginFailed());
+    },
+    loginSuccessful(req) {
+      if (!req.data.token) {
+        this.loginFailed();
+        return;
+      }
+
+      localStorage.token = req.data.token;
+      this.error = false;
+
+      this.$router.go(0); // refresh the page
+    },
+    loginFailed() {
+      this.error = "Nom d'utilisateur ou mot de passe incorrect.";
+      delete localStorage.token;
     },
   },
 };
