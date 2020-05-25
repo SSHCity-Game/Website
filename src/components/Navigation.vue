@@ -26,7 +26,7 @@
       <template slot="end">
         <b-navbar-item tag="div">
           <div v-if="!currentUser" class="buttons">
-            <a class="button is-primary">
+            <a class="button is-primary" @click="signUp">
               <strong>Sign up</strong>
             </a>
             <b-button class="is-light" @click="login">Se connecter</b-button>
@@ -43,6 +43,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import Login from './Login.vue';
+import SignUp from './SignUp.vue';
 
 export default {
   name: 'Navigation',
@@ -66,6 +67,15 @@ export default {
       this.$buefy.modal.open({
         parent: this,
         component: Login,
+        hasModalCard: true,
+        trapFocus: true,
+      });
+    },
+    signUp() {
+      // From inside Vue instance
+      this.$buefy.modal.open({
+        parent: this,
+        component: SignUp,
         hasModalCard: true,
         trapFocus: true,
       });
