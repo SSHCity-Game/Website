@@ -1,11 +1,10 @@
 <template>
   <section>
-    <Navigation />
-
+    <Navigation/>
     <div class="container top-padding" style="margin-top: 3em">
-      <h1 class="title">Le jeu</h1>
+      <h1 class="title">Les téléchargements</h1>
       <h2 class="subtitle">
-        Ce jeu est sympa
+        Ca clic
       </h2>
     </div>
   </section>
@@ -21,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.top-padding {
-  padding-top: 1em;
-}
+  .top-padding {
+    padding-top: 1em;
+  }
 </style>

@@ -1,41 +1,39 @@
 <template>
-  <section>
-    <b-navbar :fixed-top=true :spaced=true type="is-black">
-      <template slot="brand">
-        <b-navbar-item :to="{ path: '/' }" tag="router-link">
-          <img
-            :src="require('../assets/logo.png')"
-            alt="Ca c'est du jeu"
-          >
-        </b-navbar-item>
-      </template>
-      <template slot="start">
-        <b-navbar-item :to="{ path: '/game' }" tag="router-link">
-          Le jeu
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/project' }" tag="router-link">
-          Le projet
-        </b-navbar-item>
-        <b-navbar-item :to="{ path: '/downloads' }" tag="router-link">
-          Téléchargements
-        </b-navbar-item>
-      </template>
+  <b-navbar :fixed-top=true :spaced=true type="is-black">
+    <template slot="brand">
+      <b-navbar-item :to="{ path: '/' }" tag="router-link">
+        <img
+          :src="require('../assets/logo.png')"
+          alt="Ca c'est du jeu"
+        >
+      </b-navbar-item>
+    </template>
+    <template slot="start">
+      <b-navbar-item :to="{ path: '/game' }" tag="router-link">
+        Le jeu
+      </b-navbar-item>
+      <b-navbar-item :to="{ path: '/project' }" tag="router-link">
+        Le projet
+      </b-navbar-item>
+      <b-navbar-item :to="{ path: '/downloads' }" tag="router-link">
+        Téléchargements
+      </b-navbar-item>
+    </template>
 
-      <template slot="end">
-        <b-navbar-item tag="div">
-          <div v-if="!currentUser" class="buttons">
-            <a class="button is-primary" @click="signUp">
-              <strong>Sign up</strong>
-            </a>
-            <b-button class="is-light" @click="login">Se connecter</b-button>
-          </div>
-          <div v-if="currentUser" class="buttons">
-            <b-button class="is-primary" @click="logout">Se déconnecter</b-button>
-          </div>
-        </b-navbar-item>
-      </template>
-    </b-navbar>
-  </section>
+    <template slot="end">
+      <b-navbar-item tag="div">
+        <div v-if="!currentUser" class="buttons">
+          <a class="button is-primary" @click="signUp">
+            <strong>Sign up</strong>
+          </a>
+          <b-button class="is-light" @click="login">Se connecter</b-button>
+        </div>
+        <div v-if="currentUser" class="buttons">
+          <b-button class="is-primary" @click="logout">Se déconnecter</b-button>
+        </div>
+      </b-navbar-item>
+    </template>
+  </b-navbar>
 </template>
 
 <script>
