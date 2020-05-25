@@ -10,7 +10,7 @@
         </b-navbar-item>
       </template>
       <template slot="start">
-        <b-navbar-item :to="{ path: '/thegame' }" tag="router-link">
+        <b-navbar-item :to="{ path: '/game' }" tag="router-link">
           Le jeu
         </b-navbar-item>
         <b-navbar-item :to="{ path: '/project' }" tag="router-link">
