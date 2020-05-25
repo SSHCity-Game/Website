@@ -11,19 +11,19 @@ const routes = [
     component: Home,
   },
   {
-    path: '/project',
-    name: 'Project',
-    component: () => import(/* webpackChunkName: "infos" */ '../views/Infos.vue'),
+    path: '/thegame',
+    name: 'TheGame',
+    component: () => import(/* webpackChunkName: "infos" */ '../views/TheGame.vue'),
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    path: '/theproject',
+    name: 'TheProject',
+    component: () => import(/* webpackChunkName: "project" */ '../views/About.vue'),
   },
   {
-    path: '/signup',
-    name: 'SignUp',
-    component: () => import(/* webpackChunkName: "about" */ '../components/SignUp.vue'),
+    path: '/downloads',
+    name: 'Téléchargements',
+    component: () => import(/* webpackChunkName: "downloads" */ '../components/SignUp.vue'),
   },
 ];
 

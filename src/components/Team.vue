@@ -3,6 +3,14 @@
     <div class="container center-content">
       <h1 class="is-size-1 is-centered has-text-centered">L'équipe SAFExTY</h1>
       <br/>
+      <p class="is-centered">Dans le cadre du projet du semestre 2, quatre étudiants se sont réunis
+        pour réaliser un jeu qualitatif qui consiste en la gestion d’une ville axée principalement
+        sur le pôle santé. La volonté initiale était de réaliser un logiciel utile pour une caserne
+        de pompiers mais face aux multiples contraintes du cadre et du projet, ils ont dû se replier
+        vers un projet qui permettrait de sensibiliser les joueurs aux thématiques de santé et de
+        gestion des services de secours.</p>
+      <br/>
+      <br/>
       <div class="container">
         <div class="columns is-mobile is-three-fifths is-centered">
           <div class="column is-narrow has-text-centered">

@@ -10,17 +10,15 @@
         </b-navbar-item>
       </template>
       <template slot="start">
+        <b-navbar-item :to="{ path: '/thegame' }" tag="router-link">
+          Le jeu
+        </b-navbar-item>
         <b-navbar-item :to="{ path: '/project' }" tag="router-link">
           Le projet
         </b-navbar-item>
-        <!-- <b-navbar-dropdown label="Info">
-          <b-navbar-item href="#">
-            About
-          </b-navbar-item>
-          <b-navbar-item href="#">
-            Contact
-          </b-navbar-item>
-        </b-navbar-dropdown> -->
+        <b-navbar-item :to="{ path: '/downloads' }" tag="router-link">
+          Téléchargements
+        </b-navbar-item>
       </template>
 
       <template slot="end">
