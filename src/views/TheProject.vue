@@ -3,7 +3,7 @@
     <Navigation/>
     <section class="section has-background-light">
       <div class="container top-padding">
-        <h1 class="title">Le project</h1>
+        <h1 class="title is-size-1">Le project</h1>
         <h2 class="subtitle">
           Voici le descriptif technique du projet avec les technologies utilisées !
         </h2>

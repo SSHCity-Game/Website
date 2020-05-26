@@ -3,7 +3,7 @@
     <Navigation/>
     <section class="section has-background-light">
       <div class="container top-padding">
-        <h1 class="title">Le jeu</h1>
+        <h1 class="title is-size-1">Le jeu</h1>
         <h2 class="subtitle">
           Notre projet est un jeu vidéo, qui se rapproche d’un City-Builder centré
           sur le pôle de secours, il est réalisé en vue 2D isométrique.
