@@ -24,7 +24,6 @@ jobs:
       - name: Build
         run: |
           npm install
-          rm -rf dist
           npm run build
 
       # Deploy
@@ -35,3 +34,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: master
           FOLDER: dist
+          CLEAN: true
