@@ -19,11 +19,18 @@ export default {
       carousels: [
         {
           // eslint-disable-next-line global-require
-          img: require('../assets/slides/screen.png'),
+          img: require('../assets/slides/slide4.jpg'),
         },
         {
           // eslint-disable-next-line global-require
           img: require('../assets/slides/screen2.png'),
+        },
+        {
+          // eslint-disable-next-line global-require
+          img: require('../assets/slides/screen3.png'),
+        }, {
+          // eslint-disable-next-line global-require
+          img: require('../assets/slides/screen.png'),
         },
       ],
     };
