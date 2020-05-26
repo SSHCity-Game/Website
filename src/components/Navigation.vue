@@ -24,7 +24,7 @@
       <b-navbar-item tag="div">
         <div v-if="!currentUser" class="buttons">
           <a class="button is-primary" @click="signUp">
-            <strong>Sign up</strong>
+            <strong>S'inscrire</strong>
           </a>
           <b-button class="is-light" @click="login">Se connecter</b-button>
         </div>
