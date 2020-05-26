@@ -15,11 +15,11 @@
         <div class="columns is-mobile is-three-fifths is-centered">
           <div class="column is-narrow has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <img class="is-rounded" src="img/jean.png">
             </figure>
             <a>Jean Barbaroux</a>
           </div>
-          <div class="column">
+          <div class="column" style="margin-top: 1em">
             Chef de projet, Jean est un élève dévoué qui prend son rôle de chef de projet très à
             cœur. De ce fait, et de par son expérience, il est prêt à chéffer de façon
             exemplaire en étant un élève moteur pour son groupe tout en étant un soutien
@@ -30,7 +30,7 @@
       </div>
       <div class="container">
         <div class="columns is-mobile is-three-fifths is-centered">
-          <div class="column">
+          <div class="column" style="margin-top: 1em">
             Valentin est sapeur-pompier volontaire depuis 2018 mais aussi un grand
             amateur du monde numérique. Il est passionné par l’informatique et le sport.
             Ce projet va lui permettre de mettre en pratique ses acquis et de découvrir
@@ -41,7 +41,7 @@
           </div>
           <div class="column is-narrow has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <img class="is-rounded" src="img/valentin.png">
             </figure>
             <a>Valentin Chassignol</a>
           </div>
@@ -51,11 +51,11 @@
         <div class="columns is-mobile is-three-fifths is-centered">
           <div class="column is-narrow has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <img class="is-rounded" src="img/annabelle.png">
             </figure>
             <a>Annabelle Chevreau</a>
           </div>
-          <div class="column">
+          <div class="column" style="margin-top: 1em">
             Depuis sa découverte de l’informatique et plus précisément de la programmation en classe
             de première SSI, Annabelle est déterminée à accroître
             ses connaissances. En classe de Terminale S, elle a choisi l’option ISN qui lui
@@ -67,7 +67,7 @@
       </div>
       <div class="container">
         <div class="columns is-mobile is-centered">
-          <div class="column">
+          <div class="column" style="margin-top: 1em">
             Florian, en plus de l’informatique, aime jouer aux échecs et participer à
             des événements sportifs. Faisant partie de plusieurs associations, il est motivé par la
             création d’un logiciel. Ce projet va lui permettre d’acquérir de
@@ -79,9 +79,9 @@
           </div>
           <div class="column is-narrow has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <img class="is-rounded" src="img/florian.png">
             </figure>
-            <a>Floriant Drevet</a>
+            <a>Florian Drevet</a>
           </div>
         </div>
       </div>
