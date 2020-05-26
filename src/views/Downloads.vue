@@ -39,7 +39,7 @@
           </a>
           <a href="Licenses.zip" style="padding-left: 1em"
              target="_blank">
-            <b-button type="is-primary" icon-left="gavel" inverted>Licenses</b-button>
+            <b-button type="is-success" icon-left="gavel">Licenses</b-button>
           </a>
         </div>
       </div>
