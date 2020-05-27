@@ -11,15 +11,15 @@
       <div class="container top-padding">
         <h1 class="title">Le jeu</h1>
         <div class="buttons">
-          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.0/Release-1.0.0.zip"
+          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.1/Release-1.0.0.zip"
              target="_blank">
             <b-button type="is-primary" icon-left="download">Télécharger le jeu</b-button>
           </a>
-          <a href="#" style="padding-left: 1em"
+          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.1/Manuel-D-installation.pdf" style="padding-left: 1em"
              target="_blank">
             <b-button type="is-info" icon-left="book">Manuel D'installation</b-button>
           </a>
-          <a href="#" style="padding-left: 1em"
+          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.1/Manuel-D-utilisation.pdf" style="padding-left: 1em"
              target="_blank">
             <b-button type="is-info" icon-left="book">Manuel D'utilisation</b-button>
           </a>
@@ -29,11 +29,11 @@
       <div class="container top-padding">
         <h1 class="title">Le projet</h1>
         <div class="buttons">
-          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.0/Release-1.0.0.zip"
+          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.1/Rapport.de.projet.pdf"
              target="_blank">
             <b-button type="is-warning" icon-left="download">Le rapport de projet</b-button>
           </a>
-          <a href="#" style="padding-left: 1em"
+          <a href="https://github.com/SAFExTY/SSHCity/releases/download/1.0.1/Rapport.de.projet.pdf" style="padding-left: 1em"
              target="_blank">
             <b-button type="is-warning" icon-left="feather" inverted>Version allégée</b-button>
           </a>
