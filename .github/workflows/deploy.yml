@@ -30,7 +30,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          REPOSITORY_NAME: Pickle-Burp/pickle-burp.github.io
+          REPOSITORY_NAME: SSHCity-Game/safexty.github.io
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: master
           FOLDER: dist
